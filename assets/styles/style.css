@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+* body{
+    min-height: 100vh;
+}
+* img {
+    display: block;
+}
+
+body {
+    background: red;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+* a {
+    color: coral;
+}
+/** Uits
+
+/** typography**/
+.font--roboto{ 
+    font-family: 'Roboto Slab', serif;
+}
+
+/* text tranform */
+.text--uppercase{
+    
+}
+
+/*color*/
+
+.text--green {
+    color: #11998E;
+}
+
+.text--red{
+    color: red;
+}
+
+.fz--lg{
+    font-size: 20px;
+}
+.fz--md{
+    font-size: 18px;
+}
+.fz--sm{
+    font-size: 12px;
+}
+.fz--xsm{
+    font-size: 10px;
+}
+
+/* bg color */
+.bg--green{
+    background-color: green;
+}
+.bg--white{
+    background-color: white;
+}
+.bg--gray{
+    background-color: gray;
+}
+
+.bg__btn--green{
+    background-color: green;
+}
+
+.bg__btn--gray{
+    background-color: gray;
+}
+
+.border__bottom--green{
+    border-bottom: 4px solid green;
+}
+
+
+.mt-20{
+    margin-top: 20px;
+}
+.mt-10{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.px-10{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.px-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.p-20{
+    padding:20px;
+}
+/*Grid*/
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 0 10px;
+    border: 1px solid red; */
+}
+
+/* header*/
+.header .avatar {
+    border: 1px solid red;
+    max-height: 40px;
+}
+
+.header .avater .avatar--img {
+    width: 100%;
+    border-radius: 50%;
+}
+.header .summery {
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
