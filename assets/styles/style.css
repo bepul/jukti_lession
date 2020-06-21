@@ -35,7 +35,7 @@ hr{
 
 /*  color */
 .text--green {
-    color: #11998E;
+    color: #11998e;
 }
 
 .text--red {
@@ -106,6 +106,10 @@ hr{
 .mb--5{
     margin-bottom: -5px;
 }
+
+.mb-2{
+    margin-bottom: 2px;
+}
 .mx-10 {
     margin-left: 10px;
     margin-right: 10px;
@@ -122,8 +126,8 @@ hr{
 .p-20 {
     padding: 20px;
 }
-.pt-5{
-    padding-top: 5px;
+.pt-25{
+    padding-top: 25px;
 }
 .txt-aln{
     text-align: center;
@@ -131,6 +135,16 @@ hr{
 .line-height{
     line-height: 0.6;
 }
+
+.link-deco{
+    color: #a8ff78;
+    text-decoration: none;
+}
+
+.link-deco:hover{
+    color: blue;
+}
+
 /* grid */
 
 .container {
@@ -148,9 +162,41 @@ hr{
     width: 50%;
     border-radius: 50%;
     margin: 0 auto;
+    border-style: solid;
+    border-color: #11998e;
 }
 .header .summary {
-    /*border: 1px solid red;*/
+    /* border: 1px solid red; */
+}
+.border{
+    border-radius: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: #2ecc71;
+
+}
+
+
+.send-mail{
+    background-color: #a8ff78;
+    color: white;
+    text-decoration: none;
+    padding: 0.4em 0.6em;
+}
+.send-mail:hover{
+    background-color: #a8ff78;
+    color: blue;
+}
+
+.hire-me{
+    background-color: gray;
+    color: black;
+    text-decoration: none;
+    padding: 0.4em 0.6em;
+}
+.hire-me:hover{
+    background-color: #11998e;
+    color: #f5f5f6;
+    transition: 1s ease-in;
 }
 
 .box_gray{
